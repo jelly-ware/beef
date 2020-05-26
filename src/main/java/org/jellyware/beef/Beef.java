@@ -1,7 +1,7 @@
 /**
  * 
  */
-package org.cubes.beef;
+package org.jellyware.beef;
 
 import java.util.Objects;
 import java.util.function.Consumer;

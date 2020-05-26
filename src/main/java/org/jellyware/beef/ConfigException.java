@@ -1,15 +1,15 @@
-package org.cubes.beef;
+package org.jellyware.beef;
 
-import org.cubes.beef.Beef.UncheckedException;
+import org.jellyware.beef.Beef.UncheckedException;
 
 public class ConfigException extends UncheckedException {
     private static final long serialVersionUID = -6547172699595389978L;
 
-    public ConfigException(org.cubes.beef.Error.Builder error, Throwable cause) {
+    public ConfigException(org.jellyware.beef.Error.Builder error, Throwable cause) {
         super(error, cause);
     }
 
-    public ConfigException(org.cubes.beef.Error.Builder error) {
+    public ConfigException(org.jellyware.beef.Error.Builder error) {
         super(error);
     }
 

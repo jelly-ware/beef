@@ -1,8 +1,8 @@
-package org.cubes.beef;
+package org.jellyware.beef;
 
 import javax.ws.rs.core.Response;
 
-import org.cubes.beef.Beef.UncheckedException;
+import org.jellyware.beef.Beef.UncheckedException;
 
 public class UserException extends UncheckedException {
     private static final long serialVersionUID = 7918826341720024388L;
@@ -12,11 +12,11 @@ public class UserException extends UncheckedException {
         return Response.Status.UNAUTHORIZED;
     }
 
-    public UserException(org.cubes.beef.Error.Builder error, Throwable cause) {
+    public UserException(org.jellyware.beef.Error.Builder error, Throwable cause) {
         super(error, cause);
     }
 
-    public UserException(org.cubes.beef.Error.Builder error) {
+    public UserException(org.jellyware.beef.Error.Builder error) {
         super(error);
     }
 

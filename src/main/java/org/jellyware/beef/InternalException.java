@@ -1,15 +1,15 @@
-package org.cubes.beef;
+package org.jellyware.beef;
 
-import org.cubes.beef.Beef.UncheckedException;
+import org.jellyware.beef.Beef.UncheckedException;
 
 public class InternalException extends UncheckedException {
     private static final long serialVersionUID = 7653984050828149589L;
 
-    public InternalException(org.cubes.beef.Error.Builder error, Throwable cause) {
+    public InternalException(org.jellyware.beef.Error.Builder error, Throwable cause) {
         super(error, cause);
     }
 
-    public InternalException(org.cubes.beef.Error.Builder error) {
+    public InternalException(org.jellyware.beef.Error.Builder error) {
         super(error);
     }
 

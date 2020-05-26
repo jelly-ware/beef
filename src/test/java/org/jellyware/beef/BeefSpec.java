@@ -1,11 +1,11 @@
-package org.cubes.beef;
+package org.jellyware.beef;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import java.io.FileNotFoundException;
 
-import org.cubes.beef.Beef.UncheckedException;
+import org.jellyware.beef.Beef.UncheckedException;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;

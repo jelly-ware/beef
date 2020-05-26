@@ -1,8 +1,8 @@
-package org.cubes.beef;
+package org.jellyware.beef;
 
 import javax.ws.rs.core.Response;
 
-import org.cubes.beef.Beef.UncheckedException;
+import org.jellyware.beef.Beef.UncheckedException;
 
 public class ValidationException extends UncheckedException {
     private static final long serialVersionUID = 7653984050828149589L;
@@ -12,11 +12,11 @@ public class ValidationException extends UncheckedException {
         return Response.Status.BAD_REQUEST;
     }
 
-    public ValidationException(org.cubes.beef.Error.Builder error, Throwable cause) {
+    public ValidationException(org.jellyware.beef.Error.Builder error, Throwable cause) {
         super(error, cause);
     }
 
-    public ValidationException(org.cubes.beef.Error.Builder error) {
+    public ValidationException(org.jellyware.beef.Error.Builder error) {
         super(error);
     }
 

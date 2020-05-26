@@ -1,4 +1,4 @@
-package org.cubes.beef;
+package org.jellyware.beef;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -6,7 +6,7 @@ import lombok.ToString;
 
 /**
  * This class encapsulates the serial details of and unchecked exception
- * {@link org.cubes.beef.Beef}.
+ * {@link org.jellyware.beef.Beef}.
  * 
  * 
  * @author judahdonkor
