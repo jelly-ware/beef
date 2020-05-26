@@ -49,8 +49,8 @@ publishing {
             name = 'GitHubPackages'
             url = 'https://maven.pkg.github.com/jelly-ware/beef'
             credentials {
-                username = System.getenv("GITHUB_ACTOR")
-                password = System.getenv("AUTH_TK")
+                username = System.getenv("USERNAME")
+                password = System.getenv("TOKEN")
             }
         }
     }
